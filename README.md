@@ -1,6 +1,7 @@
 🎨 프로젝트 구성 : "All-in-One Dashboard"
 한 사이트 내에서 메뉴를 통해 이동하는 구조(SPA)
 
+https://frontend-step-up.vercel.app/
 1. 메인 페이지 (Main/Home)
 역할: 대시보드 형태.
 
