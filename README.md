@@ -1,4 +1,4 @@
-🎨 프로젝트 구성 제안: "All-in-One Dashboard"
+🎨 프로젝트 구성 : "All-in-One Dashboard"
 한 사이트 내에서 메뉴를 통해 이동하는 구조(SPA)
 
 1. 메인 페이지 (Main/Home)
@@ -21,7 +21,7 @@
 
 공부 포인트: JSONPlaceholder 같은 가짜 API에서 데이터를 받아와 화면에 뿌려주기. 로딩 스피너(Loading) 처리 연습.
 
-🚀 체크포인트
+🚀 체크포인트<br>
 재사용성 극대화: 메모장 페이지의 '삭제 버튼'과 투두리스트의 '삭제 버튼'을 src/components/ui/Button.tsx 하나로 처리하는 연습을 하게 됨(진짜 모듈화)
 
 폴더 구조 체득: 기능이 많아질수록 폴더가 복잡해지는데, features, ui, services 구조로 직관적으로 작업 가능
