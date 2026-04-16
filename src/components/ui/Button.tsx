@@ -1,8 +1,9 @@
 interface ButtonProps {
   children: React.ReactNode;
   onClick?: () => void;
-  variant?: 'primary' | 'danger'; // 어떤 스타일을 쓸지 선택지 추가
+  variant?: 'primary' | 'danger' | 'warning'; // 어떤 스타일을 쓸지 선택지 추가
   className?: string;
+  type?: 'button' | 'submit';
 }
 
 export const Button = ({ 
@@ -17,8 +18,9 @@ export const Button = ({
 
     // 종류별 스타일
     const variants = {
-        primary: "bg-teal-500 hover:bg-teal-600 text-white",
-        danger: "bg-red-400 hover:bg-red-500 text-white text-xs px-2 py-1", // 삭제 버튼용
+        primary: "bg-teal-500 hover:bg-teal-600 text-white text-sm w-16", // 기본
+        danger: "bg-red-400 hover:bg-red-500 text-white text-sm w-16", // 삭제 
+        warning: "bg-violet-500 hover:bg-violet-600 text-white text-sm w-16", // 수정
     };
 
     return(
