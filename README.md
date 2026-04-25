@@ -8,7 +8,7 @@ https://frontend-step-up.vercel.app/
 공부 포인트: Next.js의 Link 태그를 이용한 페이지 전환, 전체적인 레이아웃(Header, Sidebar) 구성.
 
 2. 메모장 페이지 (Sticky Notes)
-역할: 이미지에서 보셨던 칠판 UI에 메모 추가/삭제.
+역할: 칠판 UI에 메모 추가/삭제.
 
 공부 포인트: Zustand를 이용한 전역 상태 관리. (입력창 컴포넌트와 칠판 리스트 컴포넌트 간의 데이터 공유 연습)
 
